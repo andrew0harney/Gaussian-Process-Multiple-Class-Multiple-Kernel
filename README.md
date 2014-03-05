@@ -14,6 +14,7 @@ Notes:
 - The code does not implement the most efficient representation or processing of the (MC-MKL) covariance matrix
 as described in the accompanying paper (to follow in later commit)
 
+- While some effort was made to keep this code general, it was written ultimitely with a specific project in mind. However, I hope it may provide some use and it should still be straighforward to adapt. 
 
 ---------------------------------------------------
 
