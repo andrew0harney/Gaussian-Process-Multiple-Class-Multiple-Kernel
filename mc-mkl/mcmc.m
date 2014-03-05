@@ -1,6 +1,6 @@
 %Andrew O'Harney
 %19/04/2013
-%Implementation of MH sampler with adaptive phase and graphical loading bar. 
+%Implementation of MH sampler with adaptive (burn in)
 
 function [trace] = mcmc(num_samples,nadaptive,graphical,printJump,densityFunc,proposalDensityFunc,theta,id)
 
