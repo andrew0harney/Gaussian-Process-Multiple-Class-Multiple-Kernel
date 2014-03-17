@@ -1,6 +1,6 @@
 %Andrew O'Harney
 %19/04/2013
-%Uses a sparse covariance matrix (all off-diagnoals are disregarded)
+%Uses a sparse covariance matrix (use diagonal only)
 
 function [L] = sparseCovModeFind(K,E,R,sumEc,PI)
 
