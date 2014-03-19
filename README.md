@@ -16,6 +16,9 @@ as described in the accompanying paper (to follow in later commit)
 
 - While some effort was made to keep this code general, it was ultimately written with a specific project in mind. However, I hope it may provide some use and it should still be straightforward to adapt. 
 
+
+- Most of the code is written in log space to maintain numerical accuracy. A small amount of jitter is also added to the diagonals of covariance matrices to avoid singularity issues - so make sure you're happy with this setting!
+
 ---------------------------------------------------
 
 Please also refer to the accompanying license before using any of this code.
