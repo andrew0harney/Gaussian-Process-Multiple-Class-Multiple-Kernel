@@ -1,7 +1,7 @@
 Gaussian-Process-Multiple-Class-Multiple-Kernel
 ===============================================
 
-Matlab implementation of MC-MKL for Gaussian Processes as decriped in hte accompanying paper (icpr14_mcmkl.pdf)
+Matlab implementation of MC-MKL for Gaussian Processes as decriped in the accompanying paper (icpr14_mcmkl.pdf)
 
 The methods contained in this project are intended to be useful for Gaussian process classification/probability estimation. It also contains some handy functions for dealing with probability distributions.
 
