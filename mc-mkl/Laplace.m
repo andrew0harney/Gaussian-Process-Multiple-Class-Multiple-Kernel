@@ -9,7 +9,7 @@ global y
 
 % K - Cov Matrix
 % y - Training output
-% num_observations - ... the number of observations
+% num_observations - the number of observations
 
 
 f_estimate = zeros([1 length(K)])'; %Initial guess of f
